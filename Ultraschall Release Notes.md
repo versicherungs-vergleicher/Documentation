@@ -70,6 +70,16 @@ Was sonst noch so anfällt
 Changelog
 ---------------------------------------
 
+### Release 1.1 Beta 2 - 15.5.2014
+
+* **Actions** Import von Shownotes Kapitelmarken in Marker und Timeline
+* **Actions** Import von Shownotes in die Timeline zum millisekundengenauen Schnitt
+* **Actions** Export von Kapitelmarken als mp4chaps oder Podlove Simple Chapters
+* **Actions** Mit Shift-E oder dem neuen Icon werden rote Edit-Marken gesetzt
+* **Theme** Es gibt ein neues Menü "Podcast" in dem nach Workflowschritten unterteilt sämtliche Podcast-Funktionen gesammelt sind.
+* **Theme** Verbesserte Anzeige der Wellenformen.
+* **Theme** mit einem Rechtsklick auf dem Spurbereich können verschiedene geschmackvoll ausgewählte Preset-Farben ausgewählt werden.
+
 ### Release 1.1 Beta 1 - 15.3.2014
 
 
