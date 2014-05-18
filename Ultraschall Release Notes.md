@@ -29,11 +29,22 @@ Wenn man vorher bereits mit eigenen Einstellungen gearbeitet hat empfiehlt es si
 6. Reaper schließen, neu starten und direkt einmal **F7** drücken um das schwebende Iconfenster anzudocken (wir arbeiten daran).
 7. Unter File/Project Templates / Ultraschall aufrufen. Direkt Unter File/Project Templates "Save project as template..." anwählen und unter dem eigenen Sendungsnamen speichern. Darüber kann man später auch einzelne Setups verwalten (Solopodcast, Podcast mit Skype-Partnern etc.)"
 
+**Installation der Version 1.1**
+
+Ab der Version 1.1 von Ultraschall greifen wir noch tiefer in die Abläufe von Reaper ein. Dies hat zur Folge, dass einige Schritte der Installation etwas anders ablaufen:
+
+1. Es wird zwingend Reaper 4.62 oder neuer vorausgesetzt
+2. Es wird zwingend die Beta 9 der SWS Extension vorausgesetzt, hier zu beziehen: <http://sws.mj-s.com> - etwas nach unten scrollen zum Bereich "DOWNLOAD LAST BETA/PRE-RELEASE"
+3. Teil unseres Ultraschall-.zip Archivs ist eine erste eigene Extension: **reaper_Ultraschall.dylib** - diese Datei muss in das /Users/username/Library/Application Support/REAPER/UserPlugins Verzeichnis gelegt werden. Der einfachste Weg dieses Verzeichnis zu finden (der Ordner Library ist auf dem MAC standardmäßig unsichtbar) führt über Reaper: einfach Reaper starten und im Menü unter "Options" den Eintrag "Show REAPER ressource path" anwählen. Dann kann direkt der Ordner UserPlugins geöffnet werden.
+
+
 
 ### Community:
 ---------------------------------------
 
-wie unter <http://ultraschall.wikigeeks.de/2014/01/21/gesucht-betatester-fuer-ultraschall-dr-edition-von-reaper/> beschrieben versuche ich die Weiterentwicklung von Reaper mit Unterstützung der PodcasterInnen-Community voranzutreiben. Hierzu gibt es diese drei Plattformen:
+wie unter <http://ultraschall.wikigeeks.de/2014/01/21/gesucht-betatester-fuer-ultraschall-dr-edition-von-reaper/> beschrieben versuche ich die Weiterentwicklung von Reaper mit Unterstützung der PodcasterInnen-Community voranzutreiben. Hierzu gibt es diese ANlaufstationen:
+
+* Die Projektseite - wo ich unter anderem in einem Video erkläre was eigentlich Sinn und Zweck des ganzen Projektes ist: <http://ultraschall.wikigeeks.de>
 
 * Chat auf Patter (App.net) - auch Fragen zu Bedienung und Bugreporting: <http://patter-app.net/room.html?channel=41961>
 
@@ -70,21 +81,29 @@ Was sonst noch so anfällt
 Changelog
 ---------------------------------------
 
-### Release 1.1 Beta 2 - 15.5.2014
+### Release 1.1 RC1 - 18.5.2014
 
-* **Actions** Import von Shownotes Kapitelmarken in Marker und Timeline
-* **Actions** Import von Shownotes in die Timeline zum millisekundengenauen Schnitt
+* **Theme** Es gibt ein neues Menü "Podcast" in dem nach Workflowschritten unterteilt sämtliche Podcast-Funktionen gesammelt sind. *Die Funktionen gliedern sich nach den drei Workflow-Schritten "Setup, Aufnahme und Produktion" und sind auch innerhalb der Gruppen so angeordnet, dass man sie von oben nach unten durchgehen kann. Jede neue Aufnahme durchläuft somit die Einträge (oder zumindest Teile davon) des Menüs von oben nach unten.*
+
+* **Actions** Import von mp4chaps Kapitelmarken (etwa: Shownotes Export) als Marker
+
 * **Actions** Export von Kapitelmarken als mp4chaps oder Podlove Simple Chapters
+
 * **Actions** Mit Shift-E oder dem neuen Icon werden rote Edit-Marken gesetzt
-* **Theme** Es gibt ein neues Menü "Podcast" in dem nach Workflowschritten unterteilt sämtliche Podcast-Funktionen gesammelt sind.
-* **Theme** Verbesserte Anzeige der Wellenformen.
+
+* **Theme** im Edit-View ist ein neues Icon verfügbar, das den aktuelln Projekt-Ordner öffnet.
+
+* **Actions** im Podcast-Menü gibt es den Eintrag "ausgewählte Spuren für Räuspertasten aktivieren". *Hiermit werden für ausgewählte Spuren die Mute-Enveopes aktiviert und die Automation der Spuren auf WRITE gesetzt. Dies beschleunigt den Einsatz von Räuspertasten ganz erheblich, die Hintergründe sind in der Ultrachall-Folge zu Räuspertasten per Wiimote nachzuschauen.*
+
+* **Actions** Alle Spuren für Schnitt vorbereiten *mit diesem Eintrag im Podcast-Menü werden die Recording-Buttons aller Spuren ausgeschaltet und der Mute-Automationsmode auf Trim/Read geschaltet. Sollte nach jeder Aufnahme einmal aktiviert werden.*
+
 * **Theme** mit einem Rechtsklick auf dem Spurbereich können verschiedene geschmackvoll ausgewählte Preset-Farben ausgewählt werden.
 
-### Release 1.1 Beta 1 - 15.3.2014
-
+* **Theme** Legt man Spuren mit den Namen "Einspieler" oder "SKYPE" an so werden diese automagisch mit geschmackvollen Farben versehen.
 
 * **Theme** - Diverse optische Anpassungen *Der Headerbereich ist etwas heller gestaltet. Die Wellenformen werden insgesamt heller und freundlicher dargestellt.*
 
+* **Theme** Die Icons wurden mit einer tüchtigen Portion Feenstaub überschüttet.*
 
 ### Release 1.0 "Rams" - 9.2.2014
 
