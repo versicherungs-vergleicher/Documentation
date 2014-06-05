@@ -93,7 +93,7 @@ Changelog
 
 * **Actions** Mit Shift-E oder dem neuen Icon werden rote Edit-Marken gesetzt
 
-* **Theme** im Edit-View ist ein neues Icon verfügbar, das den aktuelln Projekt-Ordner öffnet.
+* **Theme** im Edit-View ist ein neues Icon verfügbar, das den aktuelln Projekt-Ordner öffnet. Der Aufnahme-View wurde im unteren Teil erweitert: es sind nun drei Dockbereiche nebeneinader angesiedelt um Spurenaussteuerung, große Uhr sowie Kapitelmarken gleichzeitig im Blick haben zu können.
 
 * **Actions** im Podcast-Menü gibt es den Eintrag "ausgewählte Spuren für Räuspertasten aktivieren". *Hiermit werden für ausgewählte Spuren die Mute-Enveopes aktiviert und die Automation der Spuren auf WRITE gesetzt. Dies beschleunigt den Einsatz von Räuspertasten ganz erheblich, die Hintergründe sind in der Ultrachall-Folge zu Räuspertasten per Wiimote nachzuschauen.*
 
