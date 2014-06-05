@@ -35,7 +35,9 @@ Ab der Version 1.1 von Ultraschall greifen wir noch tiefer in die Abläufe von R
 
 1. Es wird zwingend Reaper 4.62 oder neuer vorausgesetzt
 2. Es wird zwingend die Beta 9 der SWS Extension vorausgesetzt, hier zu beziehen: <http://sws.mj-s.com> - etwas nach unten scrollen zum Bereich "DOWNLOAD LAST BETA/PRE-RELEASE"
-3. Teil unseres Ultraschall-.zip Archivs ist eine erste eigene Extension: **reaper_Ultraschall.dylib** - diese Datei muss in das /Users/username/Library/Application Support/REAPER/UserPlugins Verzeichnis gelegt werden. Der einfachste Weg dieses Verzeichnis zu finden (der Ordner Library ist auf dem MAC standardmäßig unsichtbar) führt über Reaper: einfach Reaper starten und im Menü unter "Options" den Eintrag "Show REAPER ressource path" anwählen. Dann kann direkt der Ordner UserPlugins geöffnet werden.
+3. Der Release Candidate der Ultraschall 1.1 kann hier bezogen werden: <http://wp1187670.server-he.de/owncloud/owncloud/public.php?service=files&t=0292f60e1d2575e7c44325affae932df> 
+4. Teil unseres Ultraschall-.zip Archivs ist eine erste eigene Extension: **reaper_Ultraschall.dylib** - diese Datei muss in das /Users/username/Library/Application Support/REAPER/UserPlugins Verzeichnis gelegt werden. Der einfachste Weg dieses Verzeichnis zu finden (der Ordner Library ist auf dem MAC standardmäßig unsichtbar) führt über Reaper: einfach Reaper starten und im Menü unter "Options" den Eintrag "Show REAPER ressource path" anwählen. Dann kann direkt der Ordner UserPlugins geöffnet werden.
+5. Damit das Ultraschall-Farbset funktioniert, muss anschließend die Preset-Palette des MAC/PC überschrieben werden. **WARNUNG**: wenn bereits mit liebgewonnenen Farb-Presets arbeitet sollte man diesen Import überspringen und sich die Farbwerte lieber manuell einstellen. Der Import funkltioniert so: Im Menüpunkt "Extensions" den Punkt Auto Color/Icon aufrufen. Hier kann auch die automagische Zuordnung von Farben und Spurnamen erweitert/angepasst werden. Mit einem Rechtsklick in diesem Fenster "Show Color Management Window" aufrufen. Dort den Punkt "Load color set from file..." auswählen und die in dieser Distribution mitgelieferte Datei "Ultraschall Colorset.SWSColor" laden. Nun stehen alle 11 Ultraschall-Farben zur Verfügung.
 
 
 
@@ -81,7 +83,7 @@ Was sonst noch so anfällt
 Changelog
 ---------------------------------------
 
-### Release 1.1 RC1 - 18.5.2014
+### Release 1.1 RC2 - 5.6.2014
 
 * **Theme** Es gibt ein neues Menü "Podcast" in dem nach Workflowschritten unterteilt sämtliche Podcast-Funktionen gesammelt sind. *Die Funktionen gliedern sich nach den drei Workflow-Schritten "Setup, Aufnahme und Produktion" und sind auch innerhalb der Gruppen so angeordnet, dass man sie von oben nach unten durchgehen kann. Jede neue Aufnahme durchläuft somit die Einträge (oder zumindest Teile davon) des Menüs von oben nach unten.*
 
@@ -97,13 +99,13 @@ Changelog
 
 * **Actions** Alle Spuren für Schnitt vorbereiten *mit diesem Eintrag im Podcast-Menü werden die Recording-Buttons aller Spuren ausgeschaltet und der Mute-Automationsmode auf Trim/Read geschaltet. Sollte nach jeder Aufnahme einmal aktiviert werden.*
 
-* **Theme** mit einem Rechtsklick auf dem Spurbereich können verschiedene geschmackvoll ausgewählte Preset-Farben ausgewählt werden.
+* **Theme** mit einem Rechtsklick auf dem Spurbereich können verschiedene geschmackvoll ausgewählte Preset-Farben ausgewählt werden - kreiert von niemand Geringerem als @graphorama!
 
 * **Theme** Legt man Spuren mit den Namen "Einspieler" oder "SKYPE" an so werden diese automagisch mit geschmackvollen Farben versehen.
 
-* **Theme** - Diverse optische Anpassungen *Der Headerbereich ist etwas heller gestaltet. Die Wellenformen werden insgesamt heller und freundlicher dargestellt.*
+* **Theme** - Diverse optische Anpassungen *Der Headerbereich ist etwas heller gestaltet. Die Wellenformen werden passend zur Rest-GUI invertiert dargestellt, also hell auf dunkelfarbigem Grund. Die Anzeige, welche Bereiche einer Spur ausgewählt wurden, wurde erheblich klarer gestaltet. .*
 
-* **Theme** Die Icons wurden mit einer tüchtigen Portion Feenstaub überschüttet.*
+* **Theme** Die Icons wurden mit einer tüchtigen Portion Feenstaub überschüttet. *Dies bezieht sich sowohl auf die etwas wertigere Optik, als auch auf den "State" der nun auber gehalten wird - man hat jederzeit den Überblick, welcher View aktiv ist, welches Routing-Preset, ob Ripple-Edit aktiv ist sowie ob die Mute-Spuren sichtbar/unsichtbar geschaltet sind.*
 
 ### Release 1.0 "Rams" - 9.2.2014
 
