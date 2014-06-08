@@ -45,7 +45,7 @@ wie unter <http://ultraschall.wikigeeks.de/2014/01/21/gesucht-betatester-fuer-ul
 
 * Unser Board auf Trello für die Weiterentwicklung: <https://trello.com/b/c1ulqLBu/ultraschall-dr-reaper>
 
-* Unser Dokuwiki, in dem wir Stück für Stück eine Dokumentation zusammentragen sowie einzelne Einsatz-Szenarien vorstellen: <http://dokuschall.wikigeeks.de>
+* Unser Dokuwiki, in dem wir Stück für Stück eine Dokumentation zusammentragen sowie einzelne Einsatz-Szenarien vorstellen: <http://wiki.ultraschall-podcast.de>
 
 Alle drei ist lesend frei geschaltet, wenn du beitragen möchtest: melde dich bei mir (rstockm) auf Twitter oder ADN
 
