@@ -17,28 +17,21 @@ Meine Änderungen sind so angelegt, dass sie **vermutlich** einen Versionssprung
 
 Alle Angaben beziehen sich auf die Englische Standardfassung von Reaper auf dem MAC (Mavericks). Die Chancen stehen gut, dass die meisten Features auch mit der Windows-Version funktionieren.
 
+### Download:
+
+
 
 ### Installation:
 ---------------------------------------
-1. Reaper laden und installieren - eine **Vollversion ist für 30 Tage kostenlos** testbar: <http://www.reaper.fm> danach werden 44 € fällig.
-2. Die **SWS-Extension** laden und installieren <http://www.standingwaterstudios.com>
-3. Die Ultraschall-Edition von Soundflower laden und installieren <http://marius-eisenbraun.de/soundflower-ultraschall-edition/>
-4. Die Ultraschall Edition von Reaper - "Rams" herunterladen: <http://wp1187670.server-he.de/owncloud/owncloud/public.php?service=files&t=d5785a18a754ce390fffea10a4a03faf>
-5. Diese Distribution besteht nur aus einer einzigen (gezippten) Konfigurationsdatei. Die lädt man - am besten in ein frisch installiertes Reaper - unter Reaper/Preferences.../General mit "import configuration...". Die einzelnen Images und Configurationsdateien werden automagisch von Reaper an die richtigen Stellen geschrieben. **WARNUNG:**
+1. Reaper laden und installieren - eine **Vollversion ist für 30 Tage kostenlos** testbar: <http://www.reaper.fm> danach werden 44 € fällig. Es wird zwingend Reaper 4.62 oder neuer vorausgesetzt
+2. **MAC**: Die **SWS-Extension** aus dieser Distribution (sws-v2.4.0.9 Mac.dmg) installieren. **PC**: hier kann die : <http://sws.mj-s.com> - etwas nach unten scrollen zum Bereich "DOWNLOAD LAST BETA/PRE-RELEASE"
+3. **MAC**: Die Ultraschall-Edition von Soundflower laden und installieren <http://marius-eisenbraun.de/soundflower-ultraschall-edition/> Für den **PC** existiert nach aktuellem Forschungsstand keine Alternative, siehe <http://ultraschall.wikigeeks.de/2014/06/08/gastbeitrag-podcasting-und-ultraschall-unter-windows-ein-erfahrungsbericht/>
+4. Die Reaper-Ultraschall Konfiguration laden: Reaper starten. Die Datei Ultraschall_1_1_final.ReaperConfigZip in das Reaper Hauptfenster ziehen. Sollte dies auf dem **PC** nicht funktionieren: im Repaer-Menü unter Reaper/Preferences.../General mit "import configuration..." die Datei laden. Die einzelnen Images und Configurationsdateien werden automagisch von Reaper an die richtigen Stellen geschrieben. **WARNUNG:**
 Wenn man vorher bereits mit eigenen Einstellungen gearbeitet hat empfiehlt es sich, ebendiese **ZUVOR** an gleicher Stelle zu exportieren - es werden von dieser Distribution erhebliche Bereiche ungefragt überschrieben.
-6. Reaper schließen, neu starten und direkt einmal **F7** drücken um das schwebende Iconfenster anzudocken (wir arbeiten daran).
-7. Unter File/Project Templates / Ultraschall aufrufen. Direkt Unter File/Project Templates "Save project as template..." anwählen und unter dem eigenen Sendungsnamen speichern. Darüber kann man später auch einzelne Setups verwalten (Solopodcast, Podcast mit Skype-Partnern etc.)"
-
-**Installation der Version 1.1**
-
-Ab der Version 1.1 von Ultraschall greifen wir noch tiefer in die Abläufe von Reaper ein. Dies hat zur Folge, dass einige Schritte der Installation etwas anders ablaufen:
-
-1. Es wird zwingend Reaper 4.62 oder neuer vorausgesetzt
-2. Es wird zwingend die Beta 9 der SWS Extension vorausgesetzt, hier zu beziehen: <http://sws.mj-s.com> - etwas nach unten scrollen zum Bereich "DOWNLOAD LAST BETA/PRE-RELEASE"
-3. Der Release Candidate der Ultraschall 1.1 kann hier bezogen werden: <http://wp1187670.server-he.de/owncloud/owncloud/public.php?service=files&t=0292f60e1d2575e7c44325affae932df> 
-4. Teil unseres Ultraschall-.zip Archivs ist eine erste eigene Extension: **reaper_Ultraschall.dylib** - diese Datei muss in das /Users/username/Library/Application Support/REAPER/UserPlugins Verzeichnis gelegt werden. Der einfachste Weg dieses Verzeichnis zu finden (der Ordner Library ist auf dem MAC standardmäßig unsichtbar) führt über Reaper: einfach Reaper starten und im Menü unter "Options" den Eintrag "Show REAPER ressource path" anwählen. Dann kann direkt der Ordner UserPlugins geöffnet werden.
-5. Damit das Ultraschall-Farbset funktioniert, muss anschließend die Preset-Palette des MAC/PC überschrieben werden. **WARNUNG**: wenn bereits mit liebgewonnenen Farb-Presets arbeitet sollte man diesen Import überspringen und sich die Farbwerte lieber manuell einstellen. Der Import funkltioniert so: Im Menüpunkt "Extensions" den Punkt Auto Color/Icon aufrufen. Hier kann auch die automagische Zuordnung von Farben und Spurnamen erweitert/angepasst werden. Mit einem Rechtsklick in diesem Fenster "Show Color Management Window" aufrufen. Dort den Punkt "Load color set from file..." auswählen und die in dieser Distribution mitgelieferte Datei "Ultraschall Colorset.SWSColor" laden. Nun stehen alle 11 Ultraschall-Farben zur Verfügung.
-
+5. Im Menü unter Podcast/Projekt-Vorlagen/ "Ultraschall" aufrufen. Direkt im selben Menü "Aktuelles Projekt als Vorlage speichern..." anwählen und unter dem eigenen Sendungsnamen speichern. Darüber kann man später auch einzelne Setups verwalten (Solopodcast, Podcast mit Skype-Partnern etc.)"
+6. Teil unseres Ultraschall-.zip Archivs ist eine erste eigene Extension: **reaper_Ultraschall.dylib** - diese Datei muss in das /Users/username/Library/Application Support/REAPER/UserPlugins Verzeichnis gelegt werden. Der einfachste Weg dieses Verzeichnis zu finden (der Ordner Library ist auf dem MAC standardmäßig unsichtbar) führt über Reaper: einfach Reaper starten und im Menü unter "Options" den Eintrag "Show REAPER ressource path" anwählen. Dann kann direkt der Ordner UserPlugins geöffnet werden.
+7. Damit das neue Ultraschall-Farbset funktioniert, muss anschließend die Preset-Palette des MAC/PC überschrieben werden. **WARNUNG**: wenn bereits mit liebgewonnenen Farb-Presets arbeitet sollte man diesen Import überspringen und sich die Farbwerte lieber manuell einstellen. Der Import funktioniert so: Im Menüpunkt "Extensions" den Punkt Auto Color/Icon aufrufen. Hier kann auch die automagische Zuordnung von Farben und Spurnamen erweitert/angepasst werden. Mit einem Rechtsklick in diesem Fenster "Show Color Management Window" aufrufen. Dort den Punkt "Load color set from file..." auswählen und die in dieser Distribution mitgelieferte Datei "Ultraschall Colorset.SWSColor" laden. Nun stehen alle 11 Ultraschall-Farben zur Verfügung.
+8. Zur Handhabung der doch zahlreichen neuen Funktionen wird der 1.1 Release Screencast empfohlen.
 
 
 ### Community:
@@ -83,17 +76,17 @@ Was sonst noch so anfällt
 Changelog
 ---------------------------------------
 
-### Release 1.1 RC2 - 5.6.2014
+### Release 1.1 - 9.6.2014
 
-* **Theme** Es gibt ein neues Menü "Podcast" in dem nach Workflowschritten unterteilt sämtliche Podcast-Funktionen gesammelt sind. *Die Funktionen gliedern sich nach den drei Workflow-Schritten "Setup, Aufnahme und Produktion" und sind auch innerhalb der Gruppen so angeordnet, dass man sie von oben nach unten durchgehen kann. Jede neue Aufnahme durchläuft somit die Einträge (oder zumindest Teile davon) des Menüs von oben nach unten.*
+* **Theme** Es gibt ein neues Menü "Podcast" in dem nach Workflowschritten unterteilt sämtliche Podcast-Funktionen gesammelt sind. *Die Funktionen gliedern sich nach den drei Workflow-Schritten "Setup, Aufnahme und Produktion" und sind auch innerhalb der Gruppen so angeordnet, dass man sie von oben nach unten durchgehen kann. Jede neue Aufnahme durchläuft somit die Einträge (oder zumindest Teile davon) des Menüs von oben nach unten. Die Details sind dem 1.1 Release-Screencast zu entnehmen*
 
 * **Actions** Import von mp4chaps Kapitelmarken (etwa: Shownotes Export) als Marker
 
-* **Actions** Export von Kapitelmarken als mp4chaps oder Podlove Simple Chapters
+* **Actions** Export von Kapitelmarken als mp4chaps für Podlove und Auphonic
 
-* **Actions** Mit Shift-E oder dem neuen Icon werden rote Edit-Marken gesetzt
+* **Actions** Mit "E" oder dem neuen Icon werden rote Edit-Marken gesetzt
 
-* **Theme** im Edit-View ist ein neues Icon verfügbar, das den aktuelln Projekt-Ordner öffnet. Der Aufnahme-View wurde im unteren Teil erweitert: es sind nun drei Dockbereiche nebeneinader angesiedelt um Spurenaussteuerung, große Uhr sowie Kapitelmarken gleichzeitig im Blick haben zu können.
+* **Theme** im Edit-View ist ein neues Icon verfügbar, das den aktuellen Projekt-Ordner öffnet. Der Aufnahme-View wurde im unteren Teil erweitert: es sind nun drei Dockbereiche nebeneinader angesiedelt um Spurenaussteuerung, große Uhr sowie Kapitelmarken gleichzeitig im Blick haben zu können.
 
 * **Actions** im Podcast-Menü gibt es den Eintrag "ausgewählte Spuren für Räuspertasten aktivieren". *Hiermit werden für ausgewählte Spuren die Mute-Enveopes aktiviert und die Automation der Spuren auf WRITE gesetzt. Dies beschleunigt den Einsatz von Räuspertasten ganz erheblich, die Hintergründe sind in der Ultrachall-Folge zu Räuspertasten per Wiimote nachzuschauen.*
 
