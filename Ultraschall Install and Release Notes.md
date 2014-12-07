@@ -220,9 +220,9 @@ Changelog
 ---------------------------------------
 Diese Distribution basiert im Bereich des Designs bis auf wenige Änderungen auf dem Analog Default Theme von lerian <http://lerians.tumblr.com/post/63734186478/analog-default-theme-for-reaper> - seid großzügig und werft dort eine Spende ab. Bedenkt, wie optisch belastend andernfalls noch immer euer Reaperalltag aussähe...
 
-Das grandiose Logodesign stammt von: Das grandiose Logodesign stammt von:@graphorama
+Das grandiose Logodesign stammt von: @graphorama
 
-Weiterer Dank gehen an die Betatester:
+Weiterer Dank geht an die Betatester:
 @cyberage
 @dafisch
 @fbrem
