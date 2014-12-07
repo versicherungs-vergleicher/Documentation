@@ -64,7 +64,7 @@ Begleitend sei mein Screencast empfohlen in dem ich auf Details eingehe. Fragen 
 Neuerungen, die den mit der 1.2 eingeführten Installer für den Mac betreffen.
 
 **Preferences**
-Diese Änderungen werden im Preferences-Dialog von Reaper vorgenommen , den man über ⌘, oder im Menü unter Reaper/Preferences... erreicht.
+Diese Änderungen werden im Preferences-Dialog von Reaper vorgenommen, den man über ⌘, oder im Menü unter Reaper/Preferences... erreicht.
 
 **Theme**
 Diese Änderungen betreffen das mitgelieferte Theme und sind für Design und Anordnung der Elemente (Buttons, Regler, Anzeigen...) verantwortlich.
@@ -80,7 +80,7 @@ Changelog
 ---------------------------------------
 ### Release 1.2 - 7.12.2014
 
-* **Installer** Unter Mac OSX können weite Teile der Distribution nun über einen einfachen Installer abgewickelt werden *Soundflower Ultraschall-Edition, Startlogo, SWS-Extensions sowie das Ultraschall-Soundboard werden installiert. Manuell muss nur noch einmalig die Theme -Datei in Reaper gezogen werden.*
+* **Installer** Unter Mac OSX können weite Teile der Distribution nun über einen einfachen Installer abgewickelt werden *Soundflower Ultraschall-Edition, Startlogo, SWS-Extensions sowie das Ultraschall-Soundboard werden installiert. Manuell muss nur noch einmalig die Theme-Datei in Reaper gezogen werden.*
 
 * **Theme** Neuer Eintrag im Podcast-Menü: Navigation/Springe zu Play-Cursor (#-Taste) *springt zur aktuellen Position des Play-Cursors (Orange)*
 
@@ -220,7 +220,7 @@ Changelog
 ---------------------------------------
 Diese Distribution basiert im Bereich des Designs bis auf wenige Änderungen auf dem Analog Default Theme von lerian <http://lerians.tumblr.com/post/63734186478/analog-default-theme-for-reaper> - seid großzügig und werft dort eine Spende ab. Bedenkt, wie optisch belastend andernfalls noch immer euer Reaperalltag aussähe...
 
-Das grandiose Logodesign stammt von: @graphorama
+Das grandiose Logodesign stammt von @graphorama
 
 Weiterer Dank geht an die Betatester:
 @cyberage
