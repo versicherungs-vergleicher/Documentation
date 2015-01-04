@@ -1,4 +1,4 @@
-Ultraschall DR Reaper Theme
+Ultraschall DR Reaper Theme 1.2
 =================================
 
 Mit Podlove und Auphonic wurden uns Produzierenden von Podcasts mächtige Werkzeuge an die Hand gegeben. Was jedoch fehlte, war eine für Podcasts optimierte Umgebung für Aufnahme und Produktion der eigentlichen Podcasts.
