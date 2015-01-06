@@ -256,3 +256,13 @@ Weiterer Dank geht an die Betatester:
 @david_1701
 @michaelblum
 @kleinesp
+
+###Flattr
+---------------------------------------
+Hier könnt ihr Flattr-Liebe loswerden:
+
+Daniel: https://flattr.com/profile/danlin
+Heiko: https://flattr.com/profile/heikopanjas
+Ralf: https://flattr.com/profile/rstockm
+
+Ultraschall insgesamt: https://flattr.com/thing/2490245/Ultraschall-der-Wegbegleiter-durch-das-Fledermausland-der-Podcastsoftware
