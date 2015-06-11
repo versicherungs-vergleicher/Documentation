@@ -78,6 +78,35 @@ Was sonst noch so anfällt
 ---
 Changelog
 ---
+### Release 1.3 - 20.6.2015
+
+* **Installer** Der Installer hat ein geschmackvolleres hintergrundbild bekommen. Die aktuelle stable Version der SWS Extension (2.7) wird installiert.
+
+* **Theme** Überarbeitung des Podcast-Menüs *Begrifflichkeiten wurden klarer gefasst und vereinheitlicht. Track Templates (Einspieler, Audio-Track) werden direkt im Menü angezeigt. *
+
+* **Actions** Letzte Kapitelmarke löschen *Neue Funktion im Podcast-Menü und als Shortcut: die erste, sich links vom Edit-Cursor (rote Linie) befindliche Kapitelmarke wird gelöscht. In 99% der Fälle ist dies die zuletzt gesetzte.*
+
+* **Actions** Setze eine Kapitelmarke 2 Minuten in die Vergangenheit *Eine blaue Kapitelmarke mit der Bezeichnung "_Past" wird zwei Minuten VOR der derzeitigen Position des Edit-Markers gesetzt. Die hilft beim Markeiren einer Stelle in der Art von "eigentlich sind wir schon längst beim nächsten Thema". Durch die Farbe und den Bezeichner kann die Marke im Schnitt schnell gefunden und an die exakte Position geschoben werden.*
+
+* **Presets** Ein neues Einspieler-Track Preset wird mitgeliefert, bei dem bereits ein Ducking voreingestellt ist. *Über die Routing-Matrix werden die Kanäle ausgewählt die das Ducking aktivieren. Die genaue Bediehnung wird im Release-Screencast demonstriert.*
+
+* **Preferences** Die Samplerate wird auf 48KHz gesetzt, die Buffer-Size auf 512. "Ignore running Change Notifications" wird gesetzt.
+
+* **Soundboard** Neuer Grid-View *Die Ansicht des Soundboard lässt sich umschalten zwischen der bekannten Tabellenansicht und einer Grid-Ansicht*
+
+* **Soundboard** Ein- Ausfaden *Das Ein- und Ausfaden wird nun in sämtlichen Play-Modi unterstützt - etwa einfaden aus Pause etc.*
+
+* **Soundboard** Ducking *Es gibt einen neuen Ducking-Schalter der sämtliche gerade laufenden Einspieler sanft auf eine zu definierende, geringere Lautstärke runterregelt über die man gut drübersprechen kann. Ein Ausschalten bewirkt wieder eine Anhebung der Einspieler.*
+
+* **Soundboard** Master-Volume *Die Gesamtlautstärke des Einspieler-Outputs kann über einen Schieberegler eingestellt werden*
+
+* **Soundboard** Themes *Man kann verschiedene Farbsets für das Soundboard einstellen*
+
+* **Misc** Bugfixes in den Plugins *Einige garstige Speicherlecks wurden in unseren Reaper-Plugins geschlossen. Damit sich diese jeh auswirken hätte man aber einige Tage aufnehmen müssen.*
+
+* **HUB** [nur OSX] Die virtuellen SOund-Devices werden umbenannt, um die Zuordnung in SKYPE intuitiver zu gestalten. Stereo-Geräte werden vor Mono-Geräte gesetzt um Verschiebungen in der Routing-Matrix vorzubeugen.
+ 
+ 
 
 ### Release 1.2 - 4.1.2015
 
